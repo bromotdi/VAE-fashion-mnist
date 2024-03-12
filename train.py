@@ -110,7 +110,7 @@ if __name__ == '__main__':
     parser.add_argument('--dataset',
                         help='dataset to be modeled.',
                         type=str,
-                        default='mnist')
+                        default='fashion-mnist')
     parser.add_argument('--batch_size',
                         help='number of images in a mini-batch.',
                         type=int,
@@ -126,7 +126,7 @@ if __name__ == '__main__':
     parser.add_argument('--latent-dim',
                         help='.',
                         type=int,
-                        default=2)
+                        default=50)
     parser.add_argument('--lr',
                         help='initial learning rate.',
                         type=float,
